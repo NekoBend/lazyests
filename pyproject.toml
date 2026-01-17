@@ -1,0 +1,14 @@
+[project]
+name = "lazyests"
+version = "1.0.0"
+description = "The laziest way to handle authenticated requests using Browser Piggybacking."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["drissionpage>=4.1.1.2", "rich>=14.2.0"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["ruff>=0.14.13", "ty>=0.0.12"]
